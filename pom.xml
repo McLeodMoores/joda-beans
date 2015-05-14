@@ -486,19 +486,29 @@
   <!-- ==================================================================== -->
   <distributionManagement>
     <repository>
-      <id>sonatype-joda-staging</id>
-      <name>Sonatype OSS staging repository</name>
-      <url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-      <layout>default</layout>
+      <id>private</id>
+      <name>McLeod Moores private maven repository</name>
+      <url>http://maven.mcleodmoores.com:8081/content/repositories/private</url>
     </repository>
     <snapshotRepository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>sonatype-joda-snapshot</id>
-      <name>Sonatype OSS snapshot repository</name>
-      <url>http://oss.sonatype.org/content/repositories/joda-snapshots</url>
-      <layout>default</layout>
+      <id>private-snapshot</id>
+      <name>McLeod Moores private maven snapshot repository</name>
+      <url>http://maven.mcleodmoores.com:8081/content/repositories/private-snapshot</url>
     </snapshotRepository>
-    <downloadUrl>http://oss.sonatype.org/content/repositories/joda-releases</downloadUrl>
+    <!--<repository>-->
+      <!--<id>sonatype-joda-staging</id>-->
+      <!--<name>Sonatype OSS staging repository</name>-->
+      <!--<url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
+      <!--<layout>default</layout>-->
+    <!--</repository>-->
+    <!--<snapshotRepository>-->
+      <!--<uniqueVersion>false</uniqueVersion>-->
+      <!--<id>sonatype-joda-snapshot</id>-->
+      <!--<name>Sonatype OSS snapshot repository</name>-->
+      <!--<url>http://oss.sonatype.org/content/repositories/joda-snapshots</url>-->
+      <!--<layout>default</layout>-->
+    <!--</snapshotRepository>-->
+    <!--<downloadUrl>http://oss.sonatype.org/content/repositories/joda-releases</downloadUrl>-->
   </distributionManagement>
 
   <!-- ==================================================================== -->
